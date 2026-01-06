@@ -49,3 +49,33 @@ header{
     font-size: 16px;
     margin-bottom: 32px;
 }
+#failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 130px 320px 130px 206px;
+    gap: 70px;
+}
+.image img{
+    width: 400px;
+}
+
+.fail-content{
+    max-width: 416px;
+}
+
+.fail-content h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.fail-content p{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.fail-content ul li{
+    list-style: none;
+}
+.fail-content ul li .fa-solid{
+    color: #16D887;
+}
