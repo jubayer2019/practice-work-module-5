@@ -151,3 +151,44 @@ header{
     font-size: 40px;
     margin-bottom: 24px;
 }
+
+footer{
+    display: flex;
+    background-color: #151414;
+    height: 450px;
+    justify-content: space-around;
+    /* align-items:center; */
+    color: white;
+    padding-top: 7%;
+}
+
+.footer-content{
+    max-width: 485px;
+}
+.footer-content h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.footer-content p{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.footer-content .icon{
+    display: flex;
+    gap: 17px;
+}
+
+form h3{
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+form input[type="email"]{
+    width: 325px;
+    padding: 18px 31px;
+    border-color: white;
+    background-color: #151414;
+    border-radius: 5px;
+    color: #757575;
+    margin-bottom: 16px;
+}
