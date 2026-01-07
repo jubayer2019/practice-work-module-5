@@ -21,6 +21,18 @@
     cursor: pointer;
 }
 
+.btn1{
+    background-color: white;
+    border: none;
+    padding: 21px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FD6E0A;
+    align-items: center;
+    cursor: pointer;
+}
+
 header{
     height: 100vh;
     background: url(../images/banner/banner1.png);
@@ -78,4 +90,64 @@ header{
 }
 .fail-content ul li .fa-solid{
     color: #16D887;
+}
+
+#myplans{
+    max-width: 1140px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+#myplans .h21{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#myplans .plans{
+    display: flex;
+    justify-content: space-between;
+}
+
+#myplans .plans .cards{
+    text-align: center;
+    align-items: center;
+}
+#myplans .plans .cards img{
+    margin-bottom: 24px;
+}
+
+#myplans .plans .cards h3{
+    margin-bottom: 16px;
+}
+
+.image-wrapper{
+    position: relative;
+}
+
+.image-wrapper img{
+    width: 100%;
+    display: block;
+}
+.image-wrapper .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.call-now{
+    margin-top: 130px;
+}
+.call-now .overlay-content{
+    color: white;
+    position:absolute;
+    z-index: 3;
+    /* height: 100%; */
+    /* width: 100%; */
+    margin-left: 64px;
+    margin-top: 7%;
+}
+.call-now .overlay-content h2{
+    font-size: 40px;
+    margin-bottom: 24px;
 }
