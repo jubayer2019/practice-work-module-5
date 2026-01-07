@@ -1,2 +1,2 @@
-## 🌐 Live Preview
-👉 [Click here to view the website]([https://username.github.io/repository-name/](https://jubayer2019.github.io/practice-work-module-5/))
+## 🚀 Live Demo
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://jubayer2019.github.io/practice-work-module-5/)
